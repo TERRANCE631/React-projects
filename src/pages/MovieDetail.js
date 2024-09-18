@@ -47,7 +47,7 @@ export const MovieDetail = () => {
                   </svg>
                   <p className="ms-2 text-gray-900 dark:text-white">{detail.vote_average}</p>
                     <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
-                    //eslint-disable-next-line
+                    {/* eslint-disable-next-line */}
                   <a href="#" className=" text-gray-900 dark:text-white">{detail.vote_count} reviews</a>
               </div>
               <div className="my-5">
