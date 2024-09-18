@@ -15,7 +15,7 @@ export const MovieDetail = () => {
     }
 
     fetchMovies();
-    }, [])
+    }, [params.id])
 
     useEffect(() => {
       document.title = `${detail.title}`
